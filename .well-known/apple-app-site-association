@@ -3,7 +3,7 @@
     "details": [
       {
         "appIDs": [
-          "TJU8M52QQJ.FPU2P52CDD"
+          "TJU8M52QQJ.com.vegacheckout.app"
         ],
         "components": [
           {
@@ -16,12 +16,12 @@
   },
   "activitycontinuation": {
     "apps": [
-      "TJU8M52QQJ.FPU2P52CDD"
+      "TJU8M52QQJ.com.vegacheckout.app"
     ]
   },
   "webcredentials": {
     "apps": [
-      "TJU8M52QQJ.FPU2P52CDD"
+      "TJU8M52QQJ.com.vegacheckout.app"
     ]
   }
 }
