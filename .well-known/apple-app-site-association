@@ -1,5 +1,6 @@
 {
   "applinks": {
+    "apps": [],
     "details": [
       {
         "appIDs": [
@@ -7,11 +8,29 @@
         ],
         "components": [
           {
-            "/": "*",
-            "comment": "Matches all routes"
+            "#": "weblink",
+            "exclude": true,
+            "comment": "exclude uri's with weblink fragment"
+          },
+          {
+            "?": {
+              "short_redirect": "?*"
+            },
+            "exclude": true,
+            "comment": "exclude uri's with short_redirect parameter from deeplinks"
           }
         ]
       }
+    ]
+  },
+  "activitycontinuation": {
+    "apps": [
+      "TJU8M52QQJ.com.vegacheckout.app"
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "TJU8M52QQJ.com.vegacheckout.app"
     ]
   }
 }
