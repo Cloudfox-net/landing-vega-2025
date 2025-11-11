@@ -62,13 +62,13 @@
   </svg>
 
   <button type="button" class="bt_menu magic-hover" title="Menu">
-    <svg width="60" height="60" fill="none" xmlns="https://www.w3.org/2000/svg">
+    <svg class="gtm-menu" width="60" height="60" fill="none" xmlns="https://www.w3.org/2000/svg">
       <rect x="16" y="22.123" width="28" height="4.877" rx="2.438" fill="#2C2C2C"/>
       <rect x="18" y="33" width="24" height="4.877" rx="2.438" fill="#2C2C2C"/>
     </svg>
   </button>
 
-  <a href="https://admin.vegacheckout.com.br/register" title="Comece grátis" target="_blank" class="signup magic-hover"><span>Comece grátis</span></a>
+  <a href="https://admin.vegacheckout.com.br/register" title="Comece grátis" target="_blank" class="signup magic-hover"><span class="gtm-signup-header">Comece grátis</span></a>
 
 </header>
 
@@ -207,19 +207,19 @@
 				<li>
 					<button
 						type="button"
-						class="bt_tab bt_desk magic-hover active"
+						class="bt_tab bt_desk magic-hover active gtm-iframe-desk"
 						title="Desktop"
 						onclick="iframeTabControls(event); iframeDesk();"><i></i></button>
 				</li>
 				<li>
 					<button 
 						type="button" 
-						class="bt_tab bt_mobile magic-hover" 
+						class="bt_tab bt_mobile magic-hover gtm-iframe-mob" 
 						title="Mobile"
 						onclick="iframeTabControls(event); iframeMob();"><i></i></button>
 				</li>
 			</ul>
-			<button type="button" class="bt_full magic-hover" title="Tela cheia" onclick="iframeFull();"><i></i></button>
+			<button type="button" class="bt_full magic-hover gtm-iframe-full" title="Tela cheia" onclick="iframeFull();"><i></i></button>
 		</div>
 		<p>
 			Checkout <mark>transparente</mark> customizado com a cara do seu negócio
@@ -381,7 +381,7 @@
 		<h2>O máximo de integrações</h2>
 
 		<article class="integ_card" onclick="expandIntegCard(event)">
-			<hgroup class="magic-hover">
+			<hgroup class="magic-hover gtm-integ-apps">
 				<h3>Apps</h3>
 				<p>Recursos de e-commerce</p>
 			</hgroup>
@@ -396,7 +396,7 @@
 		</article>
 
 		<article class="integ_card" onclick="expandIntegCard(event)">
-			<hgroup class="magic-hover">
+			<hgroup class="magic-hover gtm-integ-gateways">
 				<h3>Gateways</h3>
 				<p>Intermediadores de pagamento</p>
 			</hgroup>
@@ -433,7 +433,7 @@
 		</article>
 
 		<article class="integ_card" onclick="expandIntegCard(event)">
-			<hgroup class="magic-hover">
+			<hgroup class="magic-hover gtm-integ-pixels">
 				<h3>Pixels</h3>
 				<p>Monitoramento de campanhas</p>
 			</hgroup>
@@ -480,7 +480,7 @@
 						<li>Escale seu negócio na internet</li>
 					</ul>
 					<footer>
-						<a href="https://admin.vegacheckout.com.br/register" title="Comece agora" target="_blank" class="magic-hover"><span>Comece agora</span></a>
+						<a href="https://admin.vegacheckout.com.br/register" title="Comece agora" target="_blank" class="magic-hover"><span class="gtm-plan1-cta">Comece agora</span></a>
 					</footer>
 				</div>
 			</article>
@@ -500,7 +500,7 @@
 						<li>Escale seu negócio na internet</li>
 					</ul>
 					<footer>
-						<a href="https://admin.vegacheckout.com.br/register" title="Comece agora" target="_blank" class="magic-hover"><span>Comece agora</span></a>
+						<a href="https://admin.vegacheckout.com.br/register" title="Comece agora" target="_blank" class="magic-hover"><span class="gtm-plan2-cta">Comece agora</span></a>
 					</footer>
 				</div>
 			</article>
@@ -520,7 +520,7 @@
 						<li>Escale seu negócio na internet</li>
 					</ul>
 					<footer>
-						<a href="https://admin.vegacheckout.com.br/register" title="Comece agora" target="_blank" class="magic-hover"><span>Comece agora</span></a>
+						<a href="https://admin.vegacheckout.com.br/register" title="Comece agora" target="_blank" class="magic-hover"><span class="gtm-plan3-cta">Comece agora</span></a>
 					</footer>
 				</div>
 			</article>
@@ -528,7 +528,7 @@
 				<p><b>Personalizamos o seu plano</b> se o seu negócio  já está escalado</p>
 				<button type="button" class="button magic-hover" title="Solicite um orçamento" role="link"
 					onclick="javascript:window.open('https://api.whatsapp.com/send?phone=551135007861&text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20o%20checkout%20Vega', '_blank');">
-					<span>Solicite um orçamento</span>
+					<span class="gtm-plan-special">Solicite um orçamento</span>
 				</button>
 			</footer>
 		</div>
@@ -551,27 +551,27 @@
 			
 <nav class="menu">
 	<div class="lang">
-		<a href="/" title="Português" class="bt_pt current">PT</a>
-		<a href="/en" title="English" class="bt_en magic-hover">EN</a>
+		<a href="/" title="Português" class="bt_pt current gtm-menu-pt">PT</a>
+		<a href="/en" title="English" class="bt_en magic-hover gtm-menu-en">EN</a>
 	</div>
 
 	<ul>
-		<li><a href="#cover" class="magic-hover" title="Início" onclick="closeMenu()">Início</a></li>
-		<li><a href="#audience" class="magic-hover" title="Sobre" onclick="closeMenu()">Sobre</a></li>
-		<li><a href="#pricing" class="magic-hover" title="Planos" onclick="closeMenu()">Planos</a></li>
-		<li><a href="#contact" class="magic-hover" title="Contato" onclick="closeMenu()">Contato</a></li>
+		<li><a href="#cover" class="magic-hover gtm-menu-home" title="Início" onclick="closeMenu()">Início</a></li>
+		<li><a href="#audience" class="magic-hover gtm-menu-about" title="Sobre" onclick="closeMenu()">Sobre</a></li>
+		<li><a href="#pricing" class="magic-hover gtm-menu-plans" title="Planos" onclick="closeMenu()">Planos</a></li>
+		<li><a href="#contact" class="magic-hover gtm-menu-contact" title="Contato" onclick="closeMenu()">Contato</a></li>
 	</ul>
 
 	<div class="log">
 		<small>Login</small>
-		<a href="https://admin.vegacheckout.com.br/login" class="magic-hover" target="_blank" title="Plataforma nova">Plataforma nova<i></i></a>
-		<a href="https://nova.vegacheckout.com.br" class="magic-hover" target="_blank" title="Plataforma antiga">Plataforma antiga<i></i></a>
+		<a href="https://admin.vegacheckout.com.br/login" class="magic-hover gtm-menu-login" target="_blank" title="Plataforma nova">Plataforma nova<i></i></a>
+		<a href="https://nova.vegacheckout.com.br" class="magic-hover gtm-menu-login-legacy" target="_blank" title="Plataforma antiga">Plataforma antiga<i></i></a>
 	</div>
 
 	<div class="sign">
 		<small>Nova conta</small>
-		<a href="https://admin.vegacheckout.com.br/register" class="magic-hover" target="_blank" title="Plataforma nova"><span>Plataforma nova</span></a>
-		<a href="https://nova.vegacheckout.com.br/users/register" class="magic-hover" target="_blank" title="Plataforma antiga"><span>Plataforma antiga</span></a>
+		<a href="https://admin.vegacheckout.com.br/register" class="magic-hover" target="_blank" title="Plataforma nova"><span class="gtm-menu-signup">Plataforma nova</span></a>
+		<a href="https://nova.vegacheckout.com.br/users/register" class="magic-hover" target="_blank" title="Plataforma antiga"><span class="gtm-menu-signup-legacy">Plataforma antiga</span></a>
 	</div>
 </nav>
 			
